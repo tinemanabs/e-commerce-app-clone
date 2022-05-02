@@ -8,6 +8,9 @@ import {
   faX,
 } from "@fortawesome/free-solid-svg-icons";
 import Category from "./Category";
+import SaleBanner from "./SaleBanner";
+import SaleBannerCaption from "./SaleBannerCaption";
+import FirstSection from "../FirstSection";
 
 const Header = () => {
   const [navbar, setNavbar] = useState(false);
@@ -134,6 +137,9 @@ const Header = () => {
             />
           </div>
         </div>
+        <SaleBanner />
+        <FirstSection />
+
       </div>
       {navbar ? (
         <div className="absolute right-0 h-screen w-80 bg-white border-l-4 z-20">

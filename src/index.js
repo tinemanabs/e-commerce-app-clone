@@ -3,6 +3,12 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import './fonts/TTNorms-Black.otf'
+import './fonts/TTNorms-Bold.otf'
+import './fonts/TTNorms-Medium.otf'
+import './fonts/TTNorms-Regular.otf'
+import './fonts/OpenSans_Condensed-Light.ttf'
+import './fonts/OpenSans_Condensed-Bold.ttf'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

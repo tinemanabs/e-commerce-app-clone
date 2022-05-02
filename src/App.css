@@ -32,7 +32,34 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+/* FONT-FACE NORMS */
+
+.ff-norms-black {
+  font-family: "NormsProBlack";
+}
+
+.ff-norms-bold {
+  font-family: "NormsProBold";
+}
+
+.ff-norms-medium {
+  font-family: "NormsProMedium";
+}
+
+.ff-norms-regular {
+  font-family: "NormsProregular";
+}
+
+.ff-open-sans-bold {
+  font-family: "OpenSansBold";
+}
+
+.ff-open-sans-light {
+  font-family: "OpenSansLight";
 }

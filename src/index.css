@@ -2,6 +2,44 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'NormsProBlack';
+  src: local('NormsProBlack'),
+    url('./fonts/TTNorms-Black.otf') format('OpenType');
+}
+
+@font-face {
+  font-family: 'NormsProBold';
+  src: local('NormsProBold'),
+    url('./fonts/TTNorms-Bold.otf') format('OpenType');
+}
+
+@font-face {
+  font-family: 'NormsProMedium';
+  src: local('NormsProMedium'),
+    url('./fonts/TTNorms-Medium.otf') format('OpenType');
+}
+
+@font-face {
+  font-family: 'NormsProRegular';
+  src: local('NormsProRegular'),
+    url('./fonts/TTNorms-Regular.otf') format('OpenType');
+}
+
+@font-face {
+  font-family: 'OpenSansBold';
+  src: local('OpenSansBold'),
+    url('./fonts/OpenSans_Condensed-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'OpenSansLight';
+  src: local('OpenSansLight'),
+    url('./fonts/OpenSans_Condensed-Light.ttf') format('truetype');
+}
+
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
